@@ -99,10 +99,10 @@ window.addEventListener("load", () => {
         // console.log("Catch Block Running");
         document
           .querySelector(".option-button.active")
-          .classList.remove("active");
+          //.classList.remove("active");
       }
     } else {
-      document.querySelector(".option-button.active").classList.remove("active");
+      document.querySelector(".option-button.active")//.classList.remove("active");
     }
   }
   
@@ -180,12 +180,12 @@ window.addEventListener("load", () => {
     removeDetails(elementToBeRemoved);
   }
   
-  // Remoing the Detaied Modal
+  // Removing the Detaied Modal
   function removeDetails(event) {
     // console.log(event)
     let itemID = event.id;
     let deleteElement = listContainer.querySelector(`.${itemID}-detail`);
-    listContainer.removeChild(deleteElement);
+    //listContainer.removeChild(deleteElement);
     event.setAttribute(`data-${itemID}`, 0);
   }
   
