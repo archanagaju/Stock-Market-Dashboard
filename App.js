@@ -52,6 +52,11 @@ window.addEventListener("load", () => {
       item.classList.remove("active");
     });
   };
+
+  function myFunction() {
+    var x = document.getElementById("search-input");
+    x.value = x.value.toUpperCase();
+  }
   
   
   // On Clicking Search Button Fetching Data from API
