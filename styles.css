@@ -92,8 +92,7 @@ body {
 .search-bar input {
   padding: 0 1rem;
   border: 1px solid grey;
-  background: rgb(82, 81, 81);
-  color:black;
+  background-color: #e7e7e7; color: black;
   font-size: 1.2rem;
   border: none;
   border-radius: 1rem;
@@ -108,7 +107,8 @@ body {
   width: 45px;
   border-radius: 50%;
   border: none;
-  background: rgb(82, 81, 81);
+ /* background: rgb(82, 81, 81);*/
+  background-color: #42a2f0;
   cursor: pointer;
 }
 
@@ -139,7 +139,8 @@ body {
   font-size: 1.2rem;
   height: 2.25rem;
   letter-spacing: -1px;
-  background: rgb(82, 81, 81);
+  /*background: rgb(82, 81, 81);*/
+  background-color: #4CAF50; 
   border: none;
   border-radius: 1rem;
 }
