@@ -14,6 +14,8 @@ window.addEventListener("load", () => {
   const listContainer = document.getElementById("watchlist-container");
   let closeButton = document.getElementById("close");
   let listItem;
+
+
   
   // My Map
   const myWatchlist = new Map();
@@ -191,9 +193,10 @@ window.addEventListener("load", () => {
     // console.log(event)
     let itemID = event.id;
     let deleteElement = listContainer.querySelector(`.${itemID}-detail`);
-    //listContainer.removeChild(deleteElement);
+    listContainer.removeChild(deleteElement);
     event.setAttribute(`data-${itemID}`, 0);
   }
+  
   
   // Show Detailed Modal
   function showDetails(event) {
